@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Coach Parsleys Baseball Coaching and Training Homepage</title>
+<meta charset="utf-8">
+<meta name="keywords" content="Baseball, coaching baseball, baseball trainning"/>
+<link href="styles.css" rel="stylesheet" />
+<!--
+	    Fill in the items below and change the title contents above, then delete this line.
+		Name:Spenser Parsley
+		Assignment:V4
+		Date:3/14/2020
+	-->
+</head>
+<body>
+
+<div class="header">
+<img src="https://www.thetelegram.com/media/photologue/photos/cache/TN-15082018-BASEBALL_STOCK_large.jpg" alt="baseball"  width ="1100" height="300" />
+
+  <h1>Coach Parsleys Baseball Coaching and Training Academy </h1>
+  
+</div>
+
+
+ <nav id="Around The Dimond">
+      <a href="index.html">Home</a>
+            <a href="equipment.html">Player Equipment</a>
+            <a href="WeeklySchedule.html">Weekly Schedule</a>
+            <a href="register.html">Registration Form</a>
+            <a href="about.html">About</a>
+
+   </nav>
+<section>
+      <h1>Player/Coach Registration Form</h1>
+      <p>Required Item (*)</p>
+      
+	   <form action="http://www.example.com/cg/register" method="post">
+            <label for="titleBox">Title</label>
+            <input type="text" name="title" id="titleBox" list="titlelist" />
+            <datalist id="titlelist">
+                <option value="Mr.">
+                <option value="Mrs.">
+				<option value="Ms.">
+                <option value="Coach">
+                
+            </datalist>
+            <!--M7LO5 Demonstrate the use of a text box in a form: Gave me the ability to create multile text boxes for my registration form with input type ="text" name="" amd id="".  -->
+            <label for="fnBox">First Name*</label>
+            <input type="text" name="firstName" id="fnBox" required />
+
+            <label for="lnBox">Last Name*</label>
+            <input type="text" name="lastName" id="lnBox" required />
+			
+			 <label for="ageBox">Age*</label>
+            <input type="text" name="Age" id="ageBox" required />
+
+            <label for="addBox">Address*</label>
+            <input type="text" name="address" id="addBox" required />
+
+            <label for="mailBox">Email*</label>
+            <input type="text" name="email" id="mailBox" required />
+
+            <label for="phoneBox">Phone Number*</label>
+            <input type="text" name="phoneNumber" id="phoneBox" placeholder="(nnn)nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required />
+
+           
+
+            <label for="regList">Registration Category</label> <!--M7LO8 Demonstrate the use of a selection list in a form: Has a drop down section for the registration section. -->
+            <select id="regList">
+                <option value="opencages">Open Cages Hourly ($30)</option>
+                <option value="openfield">Open Field Hourly ($95)</option>
+                <option value="coach">Coaches Clinic ($300)</option>
+                <option value="player">Player Clinic ($400)</option>
+            </select>
+
+            <p><!--M7LO10 Demonstrate the use of a submit button in a form- Helped me insert a Reigstation button using input type="submit"-->
+                <input type="submit" value="Register">
+            </p>
+
+        </form>
+   </section>
+   
+   <aside>
+      <dl>
+         <dt>Open Cages ($30)</dt>
+         <dd>Allows as many swings in our cages as possible in an hour. Discounts avliable with purches of multiple hours. </dd>
+         <dt>Open Field ($95)</dt>
+         <dd>Allows as many outside drills in our state of the art fields as possible in an hour. Discounts avliable with purches of multiple hours.</dd>
+         <dt>Coaches Clinic ($300)</dt>
+         <dd>Eligible to attend all Coaching sessions.</dd>
+         <dt>Player Clinic($400)</dt>
+         <dd>Eligible to attend all Player sessions to develop skills in the field and at the plate.</dd>
+         
+      </dl>
+   </aside>
+   <footer>
+  Coach Spenser Parsley &copy; <p> <a href="mailto:CoachParsley@gmail.com"> Contact Me At: <a href="CoachParsley@gmail.com"> CoachParsley@gmail.com &amp; Call: <a href="tel:+13605551151">(360) 555-1151</a></p>
+  </footer> 
+  </body>
+
+</html>
